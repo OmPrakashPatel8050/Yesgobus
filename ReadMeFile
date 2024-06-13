@@ -1,0 +1,39 @@
+<!-- go to package.js and install all the dependencies present in both client and server -->
+open terminal and enter npm install
+
+
+open terminal and enter cd Backend
+then enter npm run start
+It will start the nodemon server
+
+then you can test api in anywhere, like browser or postman
+got to ROUTES to know the Perticular Routes
+
+by default server is localhost:4000
+
+<!-- To get all Vehicles -->
+/vehicle
+
+<!-- to get single vehicle details -->
+/vehicles/:name
+
+<!-- to get cabBooking -->
+/CabBook
+
+<!-- to post cabBooking -->
+/CabBook
+
+<!-- to get previous Bookings -->
+/History
+
+<!-- to get offers -->
+/Offer
+
+<!-- to post offers -->
+/Offer
+
+<!-- to get wallet Balance -->
+/Balance
+
+<!-- to put wallet Balance -->
+/Balance
